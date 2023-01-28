@@ -1,0 +1,24 @@
+.app-prawy-panel-glowny{
+  width: 100%;
+  height: 100%;
+     }
+.prawy-panel{
+  background-color: green;
+  width: 70%;
+  display: inline-block;
+  justify-items: right;
+}
+.prawy-panel-flex{
+  display: flex;
+  flex-direction: column;
+background-color: #00ffe1;
+  width: 100%;
+  height: 100%;
+  flex-grow: 1;
+  justify-items: start;
+  align-items: start;
+
+}
+.prawy-content {
+  width: 100%;
+}

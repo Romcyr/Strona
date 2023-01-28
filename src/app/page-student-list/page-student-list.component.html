@@ -1,0 +1,25 @@
+<div class="panel-student-list">
+  <table>
+    <!--HEAD-->
+    <thead>
+    <tr><!--table row - wiersz tabeli -->
+    <th>Lp.</th>
+    <th>Imie</th>
+    <th>Nazwisko</th>
+    <th>Data urodzenia</th>
+    </tr>
+
+    </thead>
+    <!--Body-->
+    <!--Body-->
+    <!--Body-->
+    <tbody>
+    <tr *ngFor="let student of studentService.studentList">
+      <td>{{student.id}}</td>
+      <td>{{student.imie}}</td>
+      <td>{{student.nazwisko}}</td>
+      <td>{{student.dataUrodzenia}}</td>
+    </tr>
+    </tbody>
+  </table>
+</div>
