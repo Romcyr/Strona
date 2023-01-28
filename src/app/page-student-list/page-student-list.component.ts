@@ -14,7 +14,10 @@ export class PageStudentListComponent {
 
 
   constructor(protected studentService : StudentService) {
-
+  }
+  usunStudenta(id: number):void{
+    console.log("Usuwam studenta o id: " + id)
+    this.studentService.usunStudentaWSerwisie(id)
 
   }
 
